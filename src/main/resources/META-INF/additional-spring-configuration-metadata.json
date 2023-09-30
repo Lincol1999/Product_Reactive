@@ -1,0 +1,19 @@
+{
+    "properties": [
+        {
+            "description": "A description for 'config.uploads.path'",
+            "name": "config.uploads.path",
+            "type": "java.lang.String"
+        },
+        {
+            "description": "A description for 'config.router'",
+            "name": "config.router",
+            "type": "java.lang.String"
+        },
+        {
+            "description": "A description for 'config.rute'",
+            "name": "config.rute",
+            "type": "java.lang.String"
+        }
+    ]
+}

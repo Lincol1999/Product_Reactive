@@ -1,0 +1,15 @@
+
+server:
+  port: ${PORT}
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://${DB_USER}:${DB_PASSWORD}@productodbpractiva.6jvknwh.mongodb.net/?retryWrites=true&w=majority
+      database: ${DATA_BASE}
+
+config:
+  uploads:
+    path: ${UPLOADS_PATH}
+  rute: ${API_PRODUCT}
+  router: ${API_PRODUCT_ROUTER}
